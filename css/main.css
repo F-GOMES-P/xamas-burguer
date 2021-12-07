@@ -1,0 +1,719 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  width:100%;
+}
+.all {
+  width: 100%;
+  height: 5400px;
+  background: rgba(41,41,41,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.visao {
+  width: 100%;
+  height: 492px;
+  background: url("../images/visao.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.nav-bar {
+  position: absolute;
+  width: 1758px;
+  height: 75px;
+  left: 0px;
+  top: 0px;
+  
+  background: rgba(107, 15, 15, 0.46);
+}
+.inicio {
+  position: absolute;
+width: 97px;
+height: 42px;
+left: 281px;
+top: 17px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+}
+.container-lanche {
+  position: absolute;
+  width: 1758px;
+  height: 1459px;
+  left: 0px;
+  top: 3682px;
+  
+  background: #BF1E24;
+  
+}
+.lanche {
+  position: absolute;
+  width: 592px;
+  height: 184px;
+  left: 88px;
+  top: 3718px;
+  
+  background: #292929;
+  border-radius: 20px;
+}
+.lanche1 {
+  position: absolute;
+  width: 565px;
+  height: 184px;
+  left: 996px;
+  top: 3718px;
+  
+  background: #292929;
+  border-radius: 20px;
+}
+.lanche2 {
+  position: absolute;
+  width: 565px;
+  height: 184px;
+  left: 996px;
+  top: 3952px;
+  
+  background: #292929;
+  border-radius: 20px;
+}
+.lanche3 {
+  position: absolute;
+  width: 565px;
+  height: 184px;
+  left: 996px;
+  top: 4190px;
+  
+  background: #292929;
+  border-radius: 20px;
+}
+.lanche4 {
+  position: absolute;
+  width: 565px;
+  height: 184px;
+  left: 996px;
+  top: 4448px;
+  
+  background: #292929;
+  border-radius: 20px;
+}
+.lanche5 {
+  position: absolute;
+  width: 592px;
+  height: 184px;
+  left: 88px;
+  top: 3953px;
+  
+  background: #292929;
+  border-radius: 20px;
+}
+.lanche6 {
+  position: absolute;
+  width: 592px;
+  height: 184px;
+  left: 88px;
+  top: 4187px;
+  
+  background: #292929;
+  border-radius: 20px;
+  
+}
+.lanche7 {
+  position: absolute;
+  width: 592px;
+  height: 184px;
+  left: 88px;
+  top: 4439px;
+  
+  background: #292929;
+  border-radius: 20px;
+}
+.lanche8 {
+  position: absolute;
+  width: 592px;
+  height: 184px;
+  left: 88px;
+  top: 4673px;
+  
+  background: #292929;
+  border-radius: 20px;
+}
+.baseboard {
+  width: 100%;
+  height: 220px;
+  background: rgba(41,41,41,1);
+  opacity: 1;
+  position: absolute;
+  top: 5139px;
+  left: 0px;
+  overflow: hidden;
+}
+.baseboard1 {
+  position: absolute;
+  right: 30.85%;  
+  bottom: 0.47%;  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: justify; 
+  color: #FFFFFF;
+}
+.logo-baseboard {
+  position: absolute;
+  left: 48.18%;
+  right: 43.22%;
+  top: 97.13%;
+  bottom: 1.52%;
+  background: url("../images/logo-baseboard.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 1;
+  overflow: hidden;
+}
+.sobre-baseboard {
+  
+  position: absolute;
+  right: 79.46%;
+  bottom: 1.98%;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  
+  color: #FFFFFF;
+}
+
+.fb-baseboard {
+  right: 11.57%;
+  top: 97.91%;
+  bottom: 0.94%;  
+  background: url("../images/fb.png");
+  opacity: 1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ig-baseboard {
+  position: absolute;
+  left: 88.85%;
+  right: 8.16%;
+  top: 97.91%;
+  bottom: 0.94%;  
+  background: url("../images/ig.png");
+  opacity: 1;
+  border-radius: 50%;
+}
+.tt-baseboard {
+  position: absolute;
+  left: 92.5%;
+  right: 4.52%;
+  top: 97.91%;
+  bottom: 0.94%;
+  background: url("../images/tt.png");
+  opacity: 1;
+  border-radius: 50%;
+}
+.rede-social {
+  position: absolute;
+  right: 3.06%;
+  top: 96.88%;
+  bottom: 2.63%;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: justify;
+  
+  color: #FFFFFF;
+}
+.preco {
+  width: 167px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3760px;
+  left: 417px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.preco1 {
+  position: absolute;
+  width: 152px;
+  height: 86px;
+  left: 1305px;
+  top: 3776px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+.preco2 {
+  width: 111px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 4711px;
+  left: 436px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.preco3 {
+  position: absolute;
+  width: 196px;
+  height: 84px;
+  left: 1280px;
+  top: 4494px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+.pedido {
+  width: 628px;
+  height: 104px;
+  background: rgba(196,196,196,1);
+  opacity: 1;
+  position: absolute;
+  top: 4943px;
+  left: 572px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.pedido1 {
+  width: 574px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 4968px;
+  left: 603px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+.ft-lanche {
+  position: absolute;
+  width: 246px;
+  height: 165px;
+  left: 88px;
+  top: 3719px;  
+  background: url("../images/ft-lanche.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+.ft-lanche1 {
+  width: 204px;
+  height: 185px;
+  background: url("../images/ft-lanche1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3953px;
+  left: 88px;
+  overflow: hidden;
+}
+.ft-lanche2 {
+  width: 246px;
+  height: 235px;
+  background: url("../images/ft-lanche2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4163px;
+  left: 88px;
+  overflow: hidden;
+}
+.ft-lanche3 {
+  position: absolute;
+  width: 320px;
+  height: 285px;
+  left: 982px;
+  top: 3682px;
+  background: url("../images/ft-lanche3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+.ft-lanche4 {
+  position: absolute;
+  width: 252px;
+  height: 205px;
+  left: 996px;
+  top: 3943px;
+  background: url("../images/ft-lanche4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+.ft-lanche5 {
+  position: absolute;
+  width: 258px;
+  height: 238px;
+  left: 982px;
+  top: 4168px;
+  background: url("../images/ft-lanche5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+.preco4 {
+  width: 166px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3996px;
+  left: 417px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.preco5 {
+  position: absolute;
+  width: 148px;
+  height: 84px;
+  left: 1304px;
+  top: 4013px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+.preco6 {
+  width: 148px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 4241px;
+  left: 426px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.preco7 {
+  position: absolute;
+  width: 171px;
+  height: 85px;
+  left: 1305px;
+  top: 4245px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+.batata {
+  width: 275px;
+  height: 195px;
+  background: url("../images/batata.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4662px;
+  left: 88px;
+  overflow: hidden;
+}
+.refrigerante {
+  position: absolute;
+  width: 272px;
+  height: 228px;
+  left: 1006px;
+  top: 4433px;
+  background: url("../images/refrigerante.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+.suco {
+  width: 275px;
+  height: 220px;
+  background: url("../images/suco.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4426px;
+  left: 88px;
+  overflow: hidden;
+}
+.preco8 {
+  width: 128px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 4494px;
+  left: 427px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.cardapio {
+  position: absolute;
+width: 145px;
+height: 42px;
+left: 580px;
+top: 17px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+}
+.localizacao {
+  position: absolute;
+width: 185px;
+height: 42px;
+left: 926px;
+top: 17px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+}
+.pecaqui {
+  position: absolute;
+  width: 218px;
+  height: 42px;
+  left: 1280px;
+  top: 17px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  
+  color: #FFFFFF;
+  
+}
+.sobrenos {
+  position: absolute;
+  width: 232px;
+  height: 66px;
+  left: 1197px;
+  top: 583px;
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 65px;
+  color: rgba(255,255,255,1);
+  
+}
+.ft-sobrenos {
+  position: absolute;
+  width: 677px;
+  height: 780px;
+  left: 147px;
+  top: 567px;
+  background: url("../images/ft-sobrenos.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 567px;
+  left: 147px;
+  overflow: hidden;
+}
+.container-card {
+  width: 100%;
+  height: 912px;
+  background: rgba(191,30,36,1);
+  opacity: 1;
+  position: absolute;
+  top: 1476px;
+  left: 0px;
+  overflow: hidden;
+}
+.ft-card {
+  position: absolute;
+  width: 588px;
+  height: 758px;
+  left: 984px;
+  top: 1521px;
+  
+  background: url("../images/ft-card.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+.logo-inicio {
+  width: 144px;
+  height: 59px;
+  background: url("../images/logo-inicio.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 8px;
+  left: 36px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.loc {
+  width: 98px;
+  height: 196px;
+  background: url("../images/Loc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2458px;
+  left: 285px;
+  overflow: hidden;
+}
+.loc1 {  
+  width: 50px;
+  height: 50px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 23px;
+  border-radius: 50%;
+}
+.mapa-loc {
+  position: absolute;
+  width: 1198px;
+  height: 584px;
+  left: 232px;
+  top: 2760px;
+    background: url(../images/mapa-loc.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+}
+.loc2 {
+  position: absolute;
+  width: 930px;
+  height: 252px;
+  left: 387px;
+  top: 2451px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+.txt-card {
+  position: absolute;
+  width: 616px;
+  height: 758px;
+  left: 146px;
+  top: 1688px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+}
+.txt-sobre {
+  position: absolute;
+  width: 549px;
+  height: 674px;
+  left: 1012px;
+  top: 756px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
